@@ -1,0 +1,39 @@
+
+#the {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px;
+  top: 7px;
+  color: #e096ae;
+}
+#man {
+
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px;
+  top: 7px;
+  color: #e096ae;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+#pancake {
+  width: 30%;
+  length: 30%;
+  position: absolute;
+    top:65%;
+    left: 51%;
+      transform: translate(-55%, -51%);
+
+
+}
+#p {
+  position: absolute;
+    top:79%;
+    left: 47%;
+    color:#edd095;
+}
+body {
+background-color: #faf7f7;
+}

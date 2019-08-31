@@ -1,0 +1,754 @@
+#directions{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+  color: #001133;
+  visibility: visible;
+  animation: move 1.5s;
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  webkit-animation: move 0.5s;
+  }
+
+  @keyframes move {
+  from {
+    margin-left: -20%;
+    width: -200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+
+  @-webkit-keyframes move {
+  from {
+    margin-left: -20%;
+    width: -200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+}
+#hideshow {
+    color: #001133;
+    font-family: 'Butcherman', cursive;
+  background-color: transparent;
+ border: none;
+  font-size: 47px;
+  animation: move 1.5s;
+  position:absolute;
+  top: 145px;
+  left: 650px;
+  webkit-animation: move 0.5s;
+  }
+
+  @keyframes move {
+  from {
+    margin-left: -20%;
+    width: -200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
+
+  @-webkit-keyframes move {
+  from {
+    margin-left: -20%;
+    width: -200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#pancakes{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  position:absolute;
+    top: 10px;
+  left: 20px;
+
+
+}
+#money{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  position:absolute;
+    top: 60px;
+  left: 20px;
+
+
+}
+#rating{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  position:absolute;
+    top: 110px;
+  left: 20px;
+
+}
+#next{
+  background-color: #abdade;
+  position:absolute;
+  border:none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+    top: 630px;
+  left: 1270px;
+}
+#back{
+  background-color: #abdade;
+  position:absolute;
+  border:none;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+    top: 630px;
+  left: 25px;
+}
+#arrow, #arrow4, #arrow5{
+  position:absolute;
+  z-index:100;
+  top: 270px;
+  left: 615px;
+  height: 100px;;
+  transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+
+   transform-origin: 35px 35px;
+   -webkit-transform-origin: 35px 35px;
+   -moz-transform-origin: 35px 35px;
+   -ms-transform-origin: 35px 35px;
+}
+#arrow1{
+  position: absolute;
+  z-index:100;
+    top: 9px;
+left: 250px;
+    height: 100px;
+  transform: rotate(250deg);
+   -webkit-transform: rotate(280deg);
+   -moz-transform: rotate(280deg);
+   -ms-transform: rotate(280deg);
+}
+#arrow2{
+  position: absolute;
+z-index:100;
+  top: 65px;
+  left: 980px;
+  height: 100px;;
+  transform: rotate(-260deg);
+   -webkit-transform: rotate(-290deg);
+   -moz-transform: rotate(-290deg);
+   -ms-transform: rotate(-290deg);
+}
+#arrow3{
+  position: absolute;
+  z-index:100;
+    top: 9px;
+left: 250px;
+    height: 100px;
+  transform: rotate(250deg);
+   -webkit-transform: rotate(280deg);
+   -moz-transform: rotate(280deg);
+   -ms-transform: rotate(280deg);
+}
+#idk{
+  position:absolute;
+  top: 360px;
+  left: 600px;
+    font-family: 'Kaushan Script', cursive;
+}
+#describe{
+  z-index:700;
+  position:absolute;
+  top: 56px;
+  left: 300px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+#describew{
+  position:absolute;
+  top: 112.5px;
+left: 1020px;
+    font-family: 'Kaushan Script', cursive;
+}
+#weather{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50px;
+  position:absolute;
+    top: 30px;
+  left: 1070px;
+  border:none;
+  background:#f5f7fa;
+}
+
+
+#sunrain, #sunthunder{
+  position: absolute;
+z-index:700;
+  left:27px;
+  top: 95px;
+  width: 10%;
+  height:20%;
+
+}
+#sunsun {
+  position: absolute;
+z-index:700;
+left:33px;
+top: 93px;
+width: 9%;
+height:17%;
+}
+#suncloud{
+  position: absolute;
+z-index:700;
+left:27px;
+top: 75px;
+  width: 12%;
+  height: 21%;
+}
+
+
+#monsun{
+ position:absolute;
+  z-index:700px;
+  top: 93px;
+  left: 167px;
+  width: 9%;
+  height:17%;
+}
+
+#tuesrain, #tuesthunder{
+  position: absolute;
+z-index:700;
+left:290px;
+top: 95px;
+width: 10%;
+height:20%;
+
+}
+#tuessun{
+  position: absolute;
+z-index:700;
+top: 93px;
+left: 290px;
+width: 9%;
+height:17%;
+
+}
+#tuescloud{
+  position: absolute;
+z-index:700;
+top: 75px;
+left:280px;
+width: 12%;
+height: 21%;
+}
+
+
+#wedrain, #wedthunder{
+  position: absolute;
+z-index:700;
+  left: 420px;
+  top: 95px;
+  width: 10%;
+  height:20%;
+}
+#wedsun{
+  position: absolute;
+  z-index:700;
+  top: 93px;
+  left: 420;
+  width: 9%;
+  height:17%;
+
+}
+#wedcloud{
+  position: absolute;
+z-index:700;
+  width: 9%;
+  top: 75px;
+  left: 410;
+  width: 12%;
+  height: 21%;
+}
+
+
+#thursrain, #thursthunder{
+  position: absolute;
+z-index:700;
+top: 95px;
+left: 550;
+width: 10%;
+height:20%;;
+}
+#thurssun{
+  position: absolute;
+top: 93px;
+left: 550;
+z-index:700;
+width: 9%;
+height:17%;
+}
+#thurscloud{
+position: absolute;
+z-index:700;
+top: 75px;
+left: 535;
+width: 12%;
+height: 21%;
+}
+
+
+#frirain, #frithunder{
+  position: absolute;
+z-index:700;
+top:95px;
+left: 670px;
+width: 10%;
+height:20%;
+}
+#frisun{
+  position: absolute;
+  top: 93px;;
+  left: 675;
+  z-index:700;
+  width: 9%;
+  height:17%;
+}
+#fricloud{
+  position: absolute;
+  top: 75px;
+  left: 662;
+z-index:700;
+width: 12%;
+height: 21%;
+}
+
+
+#satrain, #satthunder{
+  position: absolute;
+z-index:700;
+top:95px;
+left: 795;
+width: 10%;
+height:20%;
+}
+ #satsun {
+   position: absolute;
+   top: 93px;
+   left: 796;
+   z-index:700;
+   width: 9%;
+   height:17%;
+ }
+#satcloud{
+  position: absolute;
+z-index:700;
+  top: 75px;
+left: 790;
+width: 12%;
+height: 21%;
+}
+
+
+#redcircle {
+  position:absolute;
+  top: 185px;
+  left: 60px;
+    height: 100px;
+}
+#forecast{
+  position:fixed;
+  z-index:200;
+  top: 100px;
+  left: 215px;
+  height: 500px;
+ width: 929px;
+ background: linear-gradient(to top right, #99ccff 0%, #0066cc 100%);
+border: solid;
+border-color: #1a3963;
+border-width: 10px;
+
+}
+body{
+  background-color:#f5f7fa;
+}
+#mon{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left: 185px;
+z-index:500;
+font-size: 20px;
+}
+#tues{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left:307px;
+z-index:500;
+font-size: 20px;
+}
+#wed{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left:433px;
+z-index:500;
+font-size: 20px;
+}
+#thurs{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left: 553px;
+z-index:500;
+font-size: 20px;
+}
+#fri{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left:698px;
+z-index:500;
+font-size: 20px;
+}
+#sat{
+  font-family: 'Merriweather', serif;
+  position:absolute;
+  top: 10px;
+  left:809px;
+z-index:500;
+font-size: 20px;
+}
+#sunday{
+  font-family: 'Merriweather', serif;
+    position:absolute;
+  z-index:500;
+  top: 10px;
+  left:60px;
+  font-size: 20px;
+}
+#yelp{
+    position: absolute;
+  top: 130px;
+  left: 1200px;
+height: 70px;
+}
+#pancaketruck{
+  position: absolute;
+    top:200px;
+  height: 700px;
+  left: 450px;
+
+}
+#todaysweatherrain, #todaysweathercloudy, #todaysweathersun, #todaysweatherthunder{
+  position: absolute;
+    z-index:400;
+  height: 75px;
+  top: 30px;
+left: 1275px;
+}
+
+#sunnyp{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 257px;
+    font-size: 25px;
+}
+#stormyp{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 249px;
+    font-size: 25px;
+}
+#showersp{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 254px;
+    font-size: 25px;
+}
+#cloudyp {
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 258px;
+    font-size: 25px;
+}
+#sunnyp1{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  font-size: 25px;
+  top: 500px;
+  left: 392px;
+}
+#sunnyp2{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 521px;
+    font-size: 25px;
+}
+#cloudyp2{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 522px;
+    font-size: 25px;
+}
+#showersp2{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 512px;
+    font-size: 25px;
+}
+#stormyp2{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 510px;
+    font-size: 25px;
+}
+#sunnyp3{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 648px;
+    font-size: 25px;
+}
+ #stormyp3{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 642px;
+    font-size: 25px;
+}
+#showersp3{
+ font-family: 'Merriweather', serif;
+ position:fixed;
+ z-index:200;
+ top: 500px;
+ left: 643px;
+   font-size: 25px;
+ }
+#cloudyp3 {
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 653px;
+    font-size: 25px;
+}
+#sunnyp4 {
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 780px;
+    font-size: 25px;
+}
+#cloudp4{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 776px;
+    font-size: 25px;
+}
+ #showersp4{
+   font-family: 'Merriweather', serif;
+   position:fixed;
+   z-index:200;
+   top: 500px;
+   left: 768px;
+     font-size: 25px;
+ }
+#stormyp4{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 770px;
+    font-size: 25px;
+}
+#sunnyp5{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 910px;
+    font-size: 25px;
+}
+#cloudyp5{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 900px;
+    font-size: 25px;
+}
+#stormyp5{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 900px;
+    font-size: 25px;
+}
+#showersp5{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 900px;
+    font-size: 25px;
+}
+#stormyp6{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 1043px;
+    font-size: 25px;
+}
+#sunnyp6{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 1043px;
+    font-size: 25px;
+}
+#cloudyp6{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left: 1035px;
+  font-size: 25px;
+}
+#showersp6{
+  font-family: 'Merriweather', serif;
+  position:fixed;
+  z-index:200;
+  top: 500px;
+  left:1043px;
+    font-size: 25px;
+}
+#click{
+  position: absolute;
+  top: 150px;
+  left: 290px;
+  font-size: 15px;
+    font-family: 'Merriweather', serif;
+}
+#clicknow{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  font-size: 15px;
+    font-family: 'Merriweather', serif;
+}
+#tempmonp{
+  position: absolute;
+  top: 200px;
+  left: 163px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#tempsunp{
+  position: absolute;
+  top: 200px;
+  left: 29px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#temptuesp{
+  position: absolute;
+  top: 200px;
+  left: 292.5px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#tempwedp{
+  position: absolute;
+  top: 200px;
+  left: 422px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#tempthursp{
+  position: absolute;
+  top: 200px;
+  left: 552.5px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#tempfrip{
+  position: absolute;
+  top: 200px;
+  left: 682.5px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#tempsatp{
+  position: absolute;
+  top: 200px;
+  left: 812px;
+  font-size: 70px;
+  height: 120px;
+  font-family: 'Rubik', sans-serif;
+}
+#redcirclesunday{
+  height: 100px;
+  position: absolute;
+    z-index:500;
+  top: 20px;
+left: 1265px;
+}
+#describeforecast{
+  position: absolute;
+  z-index:600;
+  left:247px;
+  top: 300px;
+  font-size: 19px;
+  font-family: 'Rubik', sans-serif;
+}
+#degree{
+  visibility: hidden;
+}
